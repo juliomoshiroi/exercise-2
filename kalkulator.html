@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>KALKULATOR</title>
+        <link rel="stylesheet" href="css/style.css"">
+     </head>
+         <body>
+             <script>
+                 var angka1;
+                 var angka2;
+             </script>
+             <h1>KALKULATOR</h1>
+             <div class="box2">
+             <br><button onclick="angka1=parseInt(prompt('masukan angka pertama: '))">masukan angka pertama
+             </button>
+             &emsp;&emsp;&emsp;&emsp;&emsp;
+             <button onclick="angka2=parseInt(prompt('Masukan angka kedua  : ' ))">Masukan angka kedua
+             </button>
+             <br>
+             <br>
+             <br>
+             <button onclick="document.querySelector('h2').textContent=(angka1)+'+'+(angka2)+'='
+                             +(angka1+angka2);">penjumlahan(*)</button>
+             <button onclick="document.querySelector('h2').textContent=(angka1)+'-'+(angka2)+'='
+                             +(angka1-angka2);">Pengurangan(-)</button>
+              <button onclick="document.querySelector('h2').textContent=(angka1)+'/'+(angka2)+'='
+                             +(angka1/angka2);">Pembagian(/)</button>
+              <button onclick="document.querySelector('h2').textContent=(angka1)+'*'+(angka2)+'='
+                             +(angka1*angka2);">Perkalian(*)</button>
+              <h2></h2>
+              </div>
+         </body>
+</html>

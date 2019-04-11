@@ -1,0 +1,33 @@
+.container{
+    padding: 16px;
+    border: 1px solid #000000;
+}
+#round {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    background-color: aqua;
+}
+
+p{
+font-size:20px;
+}
+.box1 {
+    width: 500px;
+    height: 200px;
+    background: greenyellow;
+    border: 7px solid orange;
+    border-radius: 50%;  
+}
+.box2{
+    width:500px;
+    height:200px ;
+    border:7px solid orange;
+    background:greenyellow; 
+    border-radius: 5%;
+}
+h1{
+    font-size: 25 px;
+    color: rgb(148, 121, 67);
+}
+
